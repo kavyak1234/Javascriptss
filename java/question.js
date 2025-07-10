@@ -14,8 +14,8 @@
 // console.log(formatString(5,"lowercase"));
 
 // 3.question3
-function checkAgeStatus(name,age) {
-    return age <18 ? `${name} is a minor` : `${name} is a adult`;
-}
-console.log(checkAgeStatus("kavya",21));
-console.log(checkAgeStatus("adarsh",21))
+// function checkAgeStatus(name,age) {
+//     return age <18 ? `${name} is a minor` : `${name} is a adult`;
+// }
+// console.log(checkAgeStatus("kavya",21));
+// console.log(checkAgeStatus("adarsh",21))
