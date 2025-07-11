@@ -41,6 +41,7 @@
 
 
 // // questions
+// 1
 // function createAdder(x) {
 //     return function(y) {
 //         return x+y;
@@ -72,27 +73,41 @@
 // fn();
 
 // 3.
-function counter() {
-  let count = 0;
+// function counter() {
+//   let count = 0;
 
-  function increment() {
-    count++;
-    return count;
-  }
+//   function increment() {
+//     count++;
+//     return count;
+//   }
 
-  function decrement() {
-    count--;
-    return count;
-  }
+//   function decrement() {
+//     count--;
+//     return count;
+//   }
 
-  return { increment, decrement };
-}
+//   return { increment, decrement };
+// }
 
 
-const c = counter();
-console.log(c.increment()); 
-console.log(c.increment());
-console.log(c.decrement());
-console.log(c.decrement());
-console.log(c.increment());
-console.log(c.increment());
+// const c = counter();
+// console.log(c.increment()); 
+// console.log(c.increment());
+// console.log(c.decrement());
+// console.log(c.decrement());
+// console.log(c.increment());
+// console.log(c.increment());
+
+// // 2
+// function callTracker() {
+//   let count = 0;
+//   return function () {
+//     count++;
+//     console.log(`Called ${count} times`);
+//   };
+// }
+
+
+// const tracker = callTracker();
+// tracker(); 
+// tracker(); 
