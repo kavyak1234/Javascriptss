@@ -26,61 +26,61 @@
 //     console.log("you entered the wrong number" );
 // }
 
-let username = "admin";
-let password = 1234567;
+// // let username = "admin";
+// // let password = 1234567;
 
-if (username === "admin") {
-    if (password === 1234567) {
-        console.log("you are authenticated success login");
-    } else {
-        console.log("invalid password");
-    }
-}else{
-    console.log("invalid user name");
-}
+// // if (username === "admin") {
+// //     if (password === 1234567) {
+// //         console.log("you are authenticated success login");
+// //     } else {
+// //         console.log("invalid password");
+// //     }
+// // }else{
+// //     console.log("invalid user name");
+// }
 // finding the largest among three number
 
-let num1 = 1030;
-let num2 = 400;
-let num3 = 50;
- if (num1 > num2) {
-    if (num1 > num3) {
-        console.log("number 1 is the largest");
-    }else if (num2>num3) {
-        console.log("number 3 is the largest");
-    }
+// let num1 = 1030;
+// let num2 = 400;
+// let num3 = 50;
+//  if (num1 > num2) {
+//     if (num1 > num3) {
+//         console.log("number 1 is the largest");
+//     }else if (num2>num3) {
+//         console.log("number 3 is the largest");
+//     }
     
- }else if (num2 > num3) {
-    console.log("number  2 is the largest");
- }else {
-    console.log("number 3 is the largest")
- }
-// //  switch case
-let today = "wednesday";
+//  }else if (num2 > num3) {
+//     console.log("number  2 is the largest");
+//  }else {
+//     console.log("number 3 is the largest")
+//  }
+// // //  switch case
+// let today = "wednesday";
 
-switch (today) {
-    case "monday":
-    console.log("today is monday");
-    break;
+// switch (today) {
+//     case "monday":
+//     console.log("today is monday");
+//     break;
 
-    case "tuesday":
-        console.log("today is tuesday");
-        break;
+//     case "tuesday":
+//         console.log("today is tuesday");
+//         break;
 
-    case "wednesday":
-        console.log("today is wednesday");
-        break;
+//     case "wednesday":
+//         console.log("today is wednesday");
+//         break;
 
-    case "thursday":
-        console.log("today is thursday");
-        break;
-    case "friday":
-        console.log("today is friday");
-        break;
-    case "satarday":
-        console.log ("today is satarday");
-        break;
-    default:
-        console.log("today is sunday");
+//     case "thursday":
+//         console.log("today is thursday");
+//         break;
+//     case "friday":
+//         console.log("today is friday");
+//         break;
+//     case "satarday":
+//         console.log ("today is satarday");
+//         break;
+//     default:
+//         console.log("today is sunday");
 
-}
+// }
