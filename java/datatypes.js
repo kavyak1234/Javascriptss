@@ -43,3 +43,4 @@
 
 // // 2.arrey
 // let friut=["apple","mango","banana","orange"]
+
